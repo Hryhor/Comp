@@ -1,0 +1,121 @@
+.footer {
+    background: #060F42;
+    width: 100%;
+    padding-bottom: 30px;
+    .footerWrap {
+        max-width: 1290px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        .footerNav {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            .footerListWrap {
+                display: flex;
+                ul {
+                    margin-right: 120px;
+                    .listTitle {
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: #D9D9D9;
+                        margin-bottom: 16px;
+                    }
+                    .listLink  {
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 16px;
+                        color: #D9D9D9;
+                        cursor: pointer;
+                        margin-bottom: 12px;
+                        &:hover {
+                            transform: translateX(-3px);
+                            transition: .3s;
+                        }
+                    }
+                }
+            }
+            .footerNetworks {
+                margin-bottom: 32px;
+                .footerNetworksText {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #D9D9D9;
+                    margin-bottom: 20px;
+                }
+                .footerNetworksLinks {
+                    margin-right: 8px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    &:hover {
+                        transform: translateY(-3px);
+                        transition: .3s;
+                    }
+                }
+            }
+            .footerConnectBlock {
+                .footerConnectText {
+                    color: #D9D9D9;
+                    margin-bottom: 6px;
+                }
+                form {
+                    border-radius: 6px;
+                    background-color:  #fff;
+                    width: 360px;
+                    padding: 10px 5px 10px 12px;
+                    input  {
+                        width: 88%;
+                        border: none;
+                        &::placeholder {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: #9A9EA5;
+                        }
+                    }
+                    button {
+                        background-color:  #fff;
+                        width: 22px;
+                        height: 22px;
+                    }
+                }
+            }
+        }
+        .footerBasement {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid #D9D9D9;
+            border-bottom: 1px solid #D9D9D9;
+            padding: 20px;
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: #D9D9D9;
+            }
+            .footerPayment {
+                display: flex;
+                .footerPaymentMastercard {
+                    cursor: pointer;
+                    margin-right: 14px;
+                    &:hover {
+                        transform: translateY(-3px);
+                        transition: .3s;
+                    }
+                }
+                .footerPaymentViza {
+                    cursor: pointer;
+                    &:hover {
+                        transform: translateY(-3px);
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+    }
+}

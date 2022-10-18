@@ -1,0 +1,87 @@
+[
+    {
+        "id": "1",
+        "imgUrl": "https://content.rozetka.com.ua/goods/images/big/18905835.jpg",
+        "desc": "Монитор 23.8 Acer K240YB, Black (UM.QE0EE.B01)",
+        "reviews": "0",
+        "price": "3500"
+    },
+    {
+        "id": "2",
+        "imgUrl": "https://hotline.ua/img/tx/228/2283825655.jpg",
+        "desc": "Процесор Intel Core i5-10400F 2.9 GHz / 12 MB (BX8070110400F) s1200 BOX",
+        "reviews": "4",
+        "price": "5 735"
+    },
+    {
+        "id": "3",
+        "imgUrl": "https://artline.ua/storage/images/products/7587/gallery/95797/gallery_1658480142320631_0.jpg",
+        "desc": "ТОП ПРОДАЖ Компьютер Artline Gaming X51 v07 (X51v07)",
+        "reviews": "6",
+        "price": "28 624"
+    },
+    {
+        "id": "4",
+        "imgUrl": "https://files.foxtrot.com.ua/PhotoNew/img_0_711_2039_0_1_637725724020417853.jpg",
+        "desc": "Игровая клавиатура DARK PROJECT One KD87A PBT Gateron Mechanical Yellow (DPO-KD-87A-004100-GYL)",
+        "reviews": "11",
+        "price": "3 299"
+    },
+    {
+        "id": "5",
+        "imgUrl": "https://content.rozetka.com.ua/goods/images/big/192273558.jpg",
+        "desc": "Asus PCI-Ex GeForce RTX 3060 Ti",
+        "reviews": "8",
+        "price": "22 719"
+    },
+    {
+        "id": "6",
+        "imgUrl": "https://hotline.ua/img/tx/199/1992637045.jpg",
+        "desc": "Процесор AMD Ryzen 5 5600G 3.9 GHz / 16 MB (100-100000252BOX) sAM4 BOX",
+        "reviews": "6",
+        "price": "7 039"
+    },
+
+    {
+        "id": "1",
+        "imgUrl": "https://content.rozetka.com.ua/goods/images/big/18905835.jpg",
+        "desc": "Монитор 23.8 Acer K240YB, Black (UM.QE0EE.B01)",
+        "reviews": "0",
+        "price": "3500"
+    },
+    {
+        "id": "2",
+        "imgUrl": "https://hotline.ua/img/tx/228/2283825655.jpg",
+        "desc": "Процесор Intel Core i5-10400F 2.9 GHz / 12 MB (BX8070110400F) s1200 BOX",
+        "reviews": "4",
+        "price": "5 735"
+    },
+    {
+        "id": "3",
+        "imgUrl": "https://artline.ua/storage/images/products/7587/gallery/95797/gallery_1658480142320631_0.jpg",
+        "desc": "ТОП ПРОДАЖ Компьютер Artline Gaming X51 v07 (X51v07)",
+        "reviews": "6",
+        "price": "28 624"
+    },
+    {
+        "id": "4",
+        "imgUrl": "https://files.foxtrot.com.ua/PhotoNew/img_0_711_2039_0_1_637725724020417853.jpg",
+        "desc": "Игровая клавиатура DARK PROJECT One KD87A PBT Gateron Mechanical Yellow (DPO-KD-87A-004100-GYL)",
+        "reviews": "11",
+        "price": "3 299"
+    },
+    {
+        "id": "5",
+        "imgUrl": "https://content.rozetka.com.ua/goods/images/big/192273558.jpg",
+        "desc": "Asus PCI-Ex GeForce RTX 3060 Ti",
+        "reviews": "8",
+        "price": "22 719"
+    },
+    {
+        "id": "6",
+        "imgUrl": "https://hotline.ua/img/tx/199/1992637045.jpg",
+        "desc": "Процесор AMD Ryzen 5 5600G 3.9 GHz / 16 MB (100-100000252BOX) sAM4 BOX",
+        "reviews": "6",
+        "price": "7 039"
+    }
+]

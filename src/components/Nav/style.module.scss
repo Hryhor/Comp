@@ -1,0 +1,219 @@
+.nav {
+    background: #060F42;
+    width: 100%;
+    //height: 40px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1562px;
+        padding: 0 15px;
+        .menuWrap { 
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .menuItem {
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 12px;
+                list-style: none;
+                margin-right: 24px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                .menuItemLink {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+        .loginBtn {
+            background: #060F42;
+            cursor: pointer;
+        }
+    }
+}
+
+.modalWindow {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    z-index: 999;
+    .modalBody {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 328px;
+        height: 399px;
+        background-color: #fff;
+        left: 40%;
+        top: 20%;
+        padding: 24px;
+        z-index: 999;
+
+        /*animation*/
+        transition: all .6s ease 0s;
+        opacity: 0;
+        transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+        .wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 42px;
+            margin-bottom: 24px;
+            .madalTitle {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .btnClose {
+                padding-top: 6px;
+                background-color: #fff;
+                width: 20px;
+                height: 30px;
+                cursor: pointer;
+                img {
+                    padding-top: 3px;
+                }
+            }
+        }
+        .formBlock {
+            width: 100%;
+            form {
+                width: 100%;
+                margin-bottom: 14px;
+                input {
+                    width: inherit;
+                    height: 42px;
+                    border: 1px solid #CCCCCC;
+                    border-radius: 4px;
+                    margin-bottom: 12px;
+                    &::placeholder {
+                        padding-left: 8px;
+                    }
+                }
+                .passwordBtn {
+                    background: url('../../assets/img/nav/watch.svg')no-repeat right;
+                }
+                .forgotPassword {
+                    background-color: transparent;
+                    color: #01579B;
+                    cursor: pointer;
+                    margin-bottom: 12px;
+                    &:hover {
+                        color: #00111f;
+                        transition: .3s;
+                    }
+                }
+                .submitBtn {
+                    background-color: #01579B;
+                    color: #fff;
+                    width: 100%;
+                    border-radius: 4px;
+                    padding: 13px 121px;
+                    cursor: pointer;
+                    margin-bottom: 12px;
+                    &:hover {
+                        background-color: #04508a;
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+        .signUpNetworksTitle {
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 12px;
+            color: #CCC;
+            margin-bottom: 24px;
+        }
+        .btnWrap {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 24px;
+            .signUpNetworksGoogle {
+                background: #EA4335;
+                color: #fff;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 12px;
+                border-radius: 4px;
+                width: 128px;
+                height: 36px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                &:hover {
+                    background: #b92d20;
+                    transition: .3s;
+                }
+            }
+            .signUpNetworksFacebook {
+                background: #4267B2;
+                color: #fff;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 12px;
+                border-radius: 4px;
+                width: 128px;
+                height: 36px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                &:hover {
+                    background:rgb(48, 75, 131);
+                    transition: .3s;
+                }
+            }
+            .btnLogo {
+                margin-right: 12px;
+            }
+        }
+        .modalRegistrationBlock {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 168px;
+            .modalRegistrationText {
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 12px;
+            }
+            .modalRegistrationBtn {
+                background-color: inherit;
+                color: #01579B;
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+    }
+}
+
+.modalWindow.animated {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s ease 0s;
+}
+
+.modalWindow.show {
+    opacity: 1;
+    visibility: visible;
+    transition: all .6s ease 0s;
+    .modalBody {
+        opacity: 1;
+        transform: perspective(600px) translate(0px, 0px) rotateX(0deg);
+    }
+
+}

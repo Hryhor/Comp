@@ -1,0 +1,53 @@
+.news {
+    margin-bottom: 50px;
+    h2 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+    .newsCarsWrap {
+        display: flex;
+        justify-content: space-between;
+        .newsCard {
+            width: 371px;
+            height: 329px;
+            box-shadow: 0px 2px 10px rgba(50, 50, 71, 0.14);
+            margin-bottom: 16px;
+            .newsCardImg {
+            }
+            .newsCardDesc {
+                padding: 8px;
+                .newsCardTitle {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-bottom: 8px;
+                }
+                .newsCardArticle {
+                    height: 48px;
+                    overflow: hidden;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 16px;
+                    margin-bottom: 8px;
+                }
+                .newsCardInfo {
+                    display: flex;
+                    justify-content: space-between;
+                    .newsCardLink {
+                        color: #01579B;
+                    }
+                }
+            }
+        }
+    }
+    .newsLinkWrap {
+        position: relative;
+        .newsLink {
+            color: #01579B;
+            position: absolute;
+            right: 0;
+        }
+    }
+}

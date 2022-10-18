@@ -1,0 +1,23 @@
+.about {
+    margin-bottom: 24px;
+    .aboutContainer {
+        max-width: 1290px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        h2 {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 36px;
+            margin-bottom: 24px;
+        }
+        .aboutText {
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+    }
+}
