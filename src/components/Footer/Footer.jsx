@@ -48,7 +48,7 @@ const Footer = () => {
                             <p className={style.footerNetworksText}>Следите за нами</p>
                             { 
                                 networks.map((item, i) => (
-                                    <Link className={style.footerNetworksLinks} to={item.link}><img src={item.icon} alt="networks" /></Link>
+                                    <Link key={`item ${i}`} className={style.footerNetworksLinks} to={item.link}><img src={item.icon} alt="networks" /></Link>
                                 ))
                             }
                         </div>

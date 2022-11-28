@@ -1,19 +1,19 @@
-//import './App.css';
-import './scss/reset.scss';
-import './scss/base.scss';
-import Header from './components/Header/Header';
-import Nav from './components/Nav/Nav';
-import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer';
+import { Routes,Route } from 'react-router-dom';
 
+//import './scss/reset.scss';
+//import './scss/base.scss';
+
+import Home from './pages/Home';
+import Cart from './pages/Cart';
 
 function App() {
+
   return (
     <div className="App">
-      <Nav/>
-      <Header />
-      <Main />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/cart" element={<Cart />}/>
+      </Routes>
     </div>
   );
 }

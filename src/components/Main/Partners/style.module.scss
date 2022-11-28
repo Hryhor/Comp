@@ -1,0 +1,27 @@
+.partners {
+    margin-bottom: 100px;
+    h2 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+    .parnersIconsWrap {
+        display: flex;
+        align-items: center;
+        background-color: antiquewhite;
+        height: 50px;
+        .parnersIconsWrapImg{
+            width: 200px;
+            height: 60px;
+        }
+        img {
+            height: fit-content;
+            width: fit-content;
+            margin-left: 30px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

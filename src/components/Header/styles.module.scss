@@ -84,12 +84,19 @@
         border-left: 2px solid #060F42;
         padding: 10px;
         .cartBtn {
-            margin-right: 24px;
+            margin-right: 10px;
+            &:hover {
+                transform: translateY(-3px);
+                transition: .3s;
+            }
             .cartBtnImg {
                 &:hover {
                     transform: translateY(-3px);
                     transition: .3s;
                 }
+            }
+            .cartBtnCount {
+                margin-top: 10px;
             }
         }
     }
